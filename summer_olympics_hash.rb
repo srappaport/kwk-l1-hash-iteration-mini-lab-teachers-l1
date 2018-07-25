@@ -25,7 +25,7 @@ iterate_through_hash
 def iterate_through_keys
   olympics_hash=add_a_key_value_pair
   keyss = olympics_hash.keys
-  keys.each do |x|
+  keyss.each do |x|
     puts x.upcase
   end
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
