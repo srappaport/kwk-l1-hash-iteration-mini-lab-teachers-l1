@@ -23,6 +23,11 @@ def iterate_through_hash
 end
 iterate_through_hash
 def iterate_through_keys
+  olympics_hash=add_a_key_value_pair
+  keyss = olympics_hash.keys
+  keys.each do |x|
+    puts x.upcase
+  end
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
 end
