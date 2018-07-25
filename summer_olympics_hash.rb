@@ -5,7 +5,7 @@ def create_olympics_hash
 end
 
 def add_a_key_value_pair
-  create_olympics_hash
+  olympics_hash=create_olympics_hash
   puts olympics_hash
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
